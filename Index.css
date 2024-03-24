@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d1f23;
+}
+.hero{
+    background-image: url("IMG/Untitled design.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+nav{
+    display: inline;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+nav ul{
+    text-align: center;
+    padding-right: 20px;
+    list-style: none;
+}
+nav ul .fa-solid{
+    margin-right: 8px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff000;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background: #9e06f6;
+    left: 0;
+    position: absolute;
+    transform: translateY(28px);
+    transition: 600ms;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.text h1{
+    margin: 50px 0 5px 260px;
+    font-size: 80px;
+    color: #fff000;
+}
+.text h3{
+    margin: 10px 0 5px 120px;
+    font-size: 40px;
+    color: #fff000;
+}
+.neon{
+    color: #660099;
+    margin-left: 40px;
+    font-weight: 620;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.download{
+    width: 200px;
+    height: 70px;
+    border: 2px solid #9e06f6;
+    border-radius: 20px;
+    background: transparent;
+    margin: 60px 20px 60px 180px;
+    transition: transform 1000ms;
+}
+.download:hover, .download:focus-visible{
+    transform: translateY(-1.75em);
+    transition: transform 250ms;
+}
+.hire{
+    width: 200px;
+    height: 70px;
+    border: 2px solid #9e06f6;
+    border-radius: 20px;
+    background: transparent;
+    margin: 60px 20px;
+    transition: transform 1000ms;
+}
+.hire:hover, .hire:focus-visible{
+    transform: translateY(-1.75em);
+    transition: transform 250ms;
+}
+.square1{
+    margin: 110px 10px 5px 45px;
+    font-size: 30px;
+    color: #fff000;
+}
+.square2{
+    margin: 110px 10px 5px 45px;
+    font-size: 30px;
+    color: #fff000;
+}
+.square3{
+    margin: 110px 10px 5px 45px;
+    font-size: 30px;
+    color: #fff000;
+}
+.square4{
+    margin: 110px 10px 5px 45px;
+    font-size: 30px;
+    color: #fff000;
+}
+.button{
+    font-size: 23px;
+    width: 190px;
+    height: 80px;
+    border:2px solid #9e06f6;
+    background: transparent;
+    border-radius: 10px;
+    margin: 60px 10px 10px 10px;
+    color: #fff000;
+    transition: transform 1000ms;
+}
+.button a{
+    text-decoration: none;
+    color: #fff000;
+}
+.button:hover, .hire:focus-visible{
+    transform: translateY(-1.75em);
+    transition: transform 250ms;
+}
+.box1{
+    width: 220px;
+    height: 320px;
+    margin: 80px 40px 5px 140px;
+    border: 2px solid #fff000;
+    border-radius: 5px;
+}
+.box2{
+    width: 220px;
+    height: 320px;
+    margin: 80px 40px 10px;
+    background: #9e06f6;
+    border: 2px solid #fff000;
+    border-radius: 5px;
+}
+.box2A{
+    width: 220px;
+    height: 320px;
+    margin: 80px 40px 10px;
+    border: 2px solid #fff000;
+    border-radius: 5px;
+}
+.box3A{
+    width: 220px;
+    height: 320px;
+    margin: 80px 40px 10px;
+    background: #9e06f6;
+    border: 2px solid #fff000;
+    border-radius: 5px;
+}
+.Tar{
+    background-image: url("IMG/Tar.png");
+    width: 100%;
+    height: 30vh;
+    margin-top: 60px;
+    opacity: 30%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.About{
+    margin:4px 40px 4px 30px;
+    width: 1256px;
+    height: 644px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    opacity: 80%;
+}
+.back-video{
+    position: relative;
+    right: 0;
+    top: 40px;
+    left: 50px;
+    bottom: 0;
+}
+@media (min-aspect-ratio: 16/9) {
+    .back-video{
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .back-video{
+        width: auto;
+        height: 90%;
+    }
+}
+
+
+
+
+
+
